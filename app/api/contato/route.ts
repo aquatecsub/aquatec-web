@@ -27,7 +27,7 @@ export async function POST(request: Request) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: "Aquatec Site <onboarding@resend.dev>",
+      from: "Aquatec Site <aquatecsub@aquatecsub.com.br>",
       to: ["aquatecsub@aquatecsub.com.br"],
       replyTo: email,
       subject: `Novo contato pelo site — ${assunto}`,
