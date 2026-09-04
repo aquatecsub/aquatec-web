@@ -99,13 +99,13 @@ export default function ContatoPage() {
                   <span className="contato-label">ENDEREÇO</span>
 
                   <p>
-                    Rua Domingos Vieira, nº 348
+                    Rua Flamboyant, nº 860
                     <br />
-                    Sala 609 — Santa Efigênia
+                    Sala A — Cidade Jardim Eldorado
                     <br />
-                    Belo Horizonte — MG
+                    Contagem — MG
                     <br />
-                    CEP 30150-240
+                    CEP 32.310-240
                   </p>
                 </div>
 
