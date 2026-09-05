@@ -253,7 +253,15 @@ button {
   color: rgba(255, 255, 255, 0.96);
   letter-spacing: 0.015em;
 }
+.email-link {
+  text-decoration: none;
+  color: rgba(255,255,255,.96);
+  cursor: pointer;
+}
 
+.email-link:hover {
+  color: #79ff00;
+}
 .contact-line svg {
   color: rgba(255, 255, 255, 0.9);
   stroke-width: 2.2;

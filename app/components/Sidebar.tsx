@@ -72,23 +72,11 @@ export default function Sidebar() {
         <div className="mobile-contact">
 
           <div className="mobile-contact-top">
-            <a href="/" className="mobile-home">
-              <Home size={14} />
-              <span>HOME</span>
-            </a>
-
-            <span className="mobile-separator">|</span>
-
-            <button className="mobile-language active">
-              PT
-            </button>
-
-            <span className="mobile-separator">|</span>
-
-            <button className="mobile-language">
-              EN
-            </button>
-          </div>
+  <a href="/" className="mobile-home">
+    <Home size={14} />
+    <span>HOME</span>
+  </a>
+</div>
 
           <div className="mobile-contact-line phone">
             <Phone size={13} />

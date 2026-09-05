@@ -31,25 +31,11 @@ export default function Header() {
       <div className="header-contact">
 
         <div className="header-top">
-
-          <a href="/" className="home-link">
-            <Home size={20} />
-            <span>HOME</span>
-          </a>
-
-          <span className="separator">|</span>
-
-          <button className="language active">
-            PT
-          </button>
-
-          <span className="separator">|</span>
-
-          <button className="language">
-            EN
-          </button>
-
-        </div>
+  <a href="/" className="home-link">
+    <Home size={20} />
+    <span>HOME</span>
+  </a>
+</div>
 
 
         <div className="contact-line phone">
@@ -58,12 +44,13 @@ export default function Header() {
         </div>
 
 
-        <div className="contact-line">
-          <Mail size={20} />
-          <span>
-            aquatecsub@aquatecsub.com.br
-          </span>
-        </div>
+        <a
+  href="mailto:aquatecsub@aquatecsub.com.br"
+  className="contact-line email-link"
+>
+  <Mail size={20} />
+  <span>aquatecsub@aquatecsub.com.br</span>
+</a>
 
 
         <div className="social-links">
